@@ -3830,7 +3830,7 @@ embed, iframe, object, video {
     .pizzaro-primary-navigation:after {
       clear: both; }
   .primary-navigation div.menu {
-    display: block; }
+    display: inline; }
   .primary-navigation ul.menu, .primary-navigation ul.nav-menu, .primary-navigation div.menu ul.nav-menu {
     max-height: none;
     overflow: visible; }
@@ -7113,7 +7113,10 @@ ul.products > li.product {
     .header-nav-links ul li {
       list-style: none; }
       .header-nav-links ul li a {
-        color: #fff; }
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px;
+}
 
 .page-template-template-homepage-v2 .header-v2 {
   background-color: transparent;
@@ -12006,8 +12009,8 @@ ul.products li.product, .products .owl-item > .product {
     font-weight: 900;
     vertical-align: middle; }
     .header-v2 .site-header-cart .cart-contents .amount span, .header-v3 .site-header-cart .cart-contents .amount span, .header-v4 .site-header-cart .cart-contents .amount span {
-      font-weight: normal;
-      font-size: 0.929em;
+      font-weight: bold;
+      font-size: 14px;
       padding-right: 6px; }
   .header-v2 .site-header-cart .cart-contents > span, .header-v3 .site-header-cart .cart-contents > span, .header-v4 .site-header-cart .cart-contents > span {
     font-size: 0.737em; }
